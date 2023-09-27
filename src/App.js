@@ -1,5 +1,6 @@
 import './App.css';
 import ExpenseItem from './components/ExpenseItem';
+import './App.css'
 
 function App() {
   const expenses = [
@@ -30,7 +31,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className='expenses'>
 
       <ExpenseItem
         title={expenses[0].title}
